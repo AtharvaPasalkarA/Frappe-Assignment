@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "autoname": "format:{MM}-{package}-{##}",
+ "creation": "2023-02-03 12:03:38.804048",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "package",
+  "duration",
+  "price",
+  "is_published",
+  "image",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "package",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Package",
+   "options": "Platinum\nGold\nSilver",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Duration",
+   "options": "1 Month\n3 Month\n6 Month\n1 Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Select",
+   "label": "Price",
+   "options": "2000\n4000\n6000\n8000\n12000",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "is_published"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "modified": "2023-02-09 11:28:04.074551",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "Gym Membership",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "route": "Gym Membership",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_seen": 1
+}

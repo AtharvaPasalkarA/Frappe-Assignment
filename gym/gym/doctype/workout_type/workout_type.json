@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-09 13:02:50.066644",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "workout"
+ ],
+ "fields": [
+  {
+   "fieldname": "day",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Day",
+   "reqd": 1
+  },
+  {
+   "fieldname": "workout",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Workout",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-09 13:02:50.066644",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "Workout Type",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

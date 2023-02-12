@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}-{trainerpackage_name}",
+ "creation": "2023-02-08 11:04:08.163012",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "trainerpackage_name",
+  "column_break_skoug",
+  "email",
+  "price",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_skoug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "trainerpackage_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trainer/Package/Locker Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Price",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Plan Subscription",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-02-09 17:46:38.814587",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "Plan Subscription",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
